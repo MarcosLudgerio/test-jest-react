@@ -1,6 +1,6 @@
 # Testes unitários com Jest
 
-Esse projeto consiste em uma aplicação simples construída com [React JS](https://github.com/facebook/create-react-app)
+Esse projeto consiste em uma aplicação simples construída com [React JS](https://github.com/facebook/create-react-app)  
 A aplicação possui apenas um componente e os testes para esse componente.
 
 
@@ -10,13 +10,13 @@ Esse projeto tem por finalidade exemplificar como efetuar testes de unidade com 
 
 ## ▶️ Executando o projeto
 
-1. Faça um clone do repositório na máquina local
+Faça um clone do repositório na máquina local:
 
 ```sh
 $ git clone https://github.com/MarcosLudgerio/test-jest-react.git
 ```
 
-2. Entre na pasta que acabou de ser criada e entre no projeto em example-jest
+Entre na pasta que acabou de ser criada e entre no projeto em example-jest
 ```sh
 $ cd test-jest-react/example-jest
 ```
