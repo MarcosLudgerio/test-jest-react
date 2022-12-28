@@ -1,4 +1,4 @@
-import Contador from "./components";
+import Contador from "./components/Contador";
 import './index.css';
 function App() {
   return (

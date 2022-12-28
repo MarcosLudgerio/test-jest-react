@@ -14,17 +14,11 @@ export default function Contador() {
         <div className="counter">
             <h1 className={`counter__title ${getModifier()}`}>{counter}</h1>
             <section className="buttons">
-                <button
-                    onClick={() => setCounter(counter + 1)}
-                    className="button button--increment"
-                >
-                    incrementar
-                </button>
-                <button
-                    onClick={() => setCounter(counter - 1)}
-                    className="button button--decrement"
-                >
+                <button onClick={() => setCounter(counter - 1)} className="button button--decrement">
                     decrementar
+                </button>
+                <button onClick={() => setCounter(counter + 1)} className="button button--increment">
+                    incrementar
                 </button>
             </section>
         </div>
